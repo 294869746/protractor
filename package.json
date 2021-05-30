@@ -1,0 +1,26 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "添加一个protractor 自动化测试框架",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/294869746/protractor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/294869746/protractor/issues"
+  },
+  "homepage": "https://github.com/294869746/protractor#readme",
+  "dependencies": {
+    "jasmine-spec-reporter": "~5.0.2",
+    "protractor": "^7.0.0",
+    "protractor-jasmine2-html-reporter": "~0.0.7",
+    "webdriver": "~6.1.17"
+  }
+}
