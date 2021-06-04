@@ -8,8 +8,8 @@ exports.config = {
         './page-specs/getProjectList.js'
     ],
 
-    capabilities: {
-        browserName: 'firefox',
+    desiredCapabilities: {
+        browserName: 'chrome',
     },
 
     onPrepare: function() {
@@ -40,6 +40,6 @@ exports.config = {
     },
 
     jasmineNodeOpts: {
-        defaultTimeoutInterval: 30000,
+        defaultTimeoutInterval: 300000,
     }
 }
